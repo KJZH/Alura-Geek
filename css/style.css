@@ -1,0 +1,265 @@
+@import url(reset.css);
+
+:root{
+    font-family: 'Press Start 2P';
+
+ }
+
+.logo__item {
+    background-image: url(../assets/corazones.png);
+        
+    background-repeat: no-repeat;
+    padding: 0% 9% 3% 1%;
+    width: 20px;
+    height: 20px;
+    
+    
+}
+
+.cabecera__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #5300C8;
+    width: 100%;
+
+    background-color: #5300C8;
+    width: 100%;
+    height: 96px;
+    color:#E5E5E5;
+    border-bottom-color: #DADADA;
+    border-bottom-style: solid;
+    border-bottom-width: thick; 
+}
+
+.header-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    
+}
+
+
+
+.foot-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #5300C8;
+    width: 100%;
+    height: 232px;
+    color:#E5E5E5;
+    border-top-color: #DADADA;
+    border-top-style: solid;
+    border-top-width: thick;
+}
+
+.foot-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    
+}
+
+.foot-author{
+    display: flex;
+    justify-content: center;
+    font-family: 'IBM Plex Mono';
+    font-style: normal;
+    font-weight: 300
+}
+
+.foot-year{
+    display: flex;
+    justify-content: center;
+    font-family: 'IBM Plex Mono';
+    font-style: normal;
+    font-weight: 100
+}
+
+.products-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    padding:  20px 13px 15px;
+    gap: 10px;
+    width: 100%;
+    font-size: 10px;
+    margin-top: 20px;
+    border-bottom-color: #DADADA;
+    border-bottom-style: solid;
+    border-bottom-width: thick;
+    border-left-color: #DADADA;
+    border-left-style: solid;
+    border-left-width: thick;
+}
+
+.products-container::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+    
+}
+
+
+.card{
+    background-color:#5300C8;
+    color: #FFFFFF;
+    width: calc(100%/4);
+    padding: 10px;
+    border-radius: 10px;
+    border: 3px solid #eeeeee;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card-container--value{
+    display: flex;
+    justify-content:flex-end;
+}
+
+
+.delete-button{
+    background-color: transparent;
+    
+}
+
+.section-1{
+    width: 80%;
+}
+
+
+
+.card-container--info{
+    display: flex;
+    flex-direction: column;
+    font-size: auto;
+    margin-top: 15px;
+    max-width: 100%; 
+    max-height: 100%;
+    height: auto; 
+    width: -webkit-fill-available; 
+    display: block; 
+    margin: 0 auto; 
+}
+
+.card-container--info p{
+    margin-top: 15px;
+    font-size: auto;
+}
+
+.img-container img{
+  max-width: 100%; 
+  max-height: 100%; 
+  margin-bottom: 20px;;
+  height: auto; 
+  width: -webkit-fill-available;
+  display: block; 
+  margin: 0 auto; 
+  border: 2.4px solid black;
+}
+
+
+
+.main-container{
+    display: flex;
+    flex-direction: row;
+
+    margin: 36px;
+    gap: 102px;
+}
+
+.form-container{
+    width: 100%;
+}
+
+.fill-container{
+    border: 2px solid #03318C;
+    color: #03318C;
+    border-radius: 50px;
+    padding: 20px 40px 20px 25px;
+    height: 0px;
+    width: -webkit-fill-available;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.fill-container::placeholder {
+    color:#03318C;
+    font-family: 'IBM Plex Mono';
+    font-weight: 500;
+   }
+
+.button-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 15px;
+    width: -webkit-fill-available; 
+
+}
+
+.button-submit{
+    font-family: 'IBM Plex Mono';
+    background-color: #03318C;
+    color: white;
+    border: 1px solid #03318C;
+    border-radius: 15px; 
+    padding: 5px;
+    height: 40px;
+    width: 120px;
+    font-weight: 600;
+}
+
+.button-clear{
+    font-family: 'IBM Plex Mono';
+    background-color: transparent;
+    color: #03318C;
+    border: 1px solid #03318C;
+    border-radius: 15px; 
+    padding: 5px;
+    height: 40px;
+    width: 120px;
+    font-weight: 600;
+}
+
+
+/*Mobile*/
+@media (max-width: 425px) {
+    .main-container{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .products-container{
+        width: 100%;
+        font-size: 10px;
+        display: flex;
+        justify-content: flex-start;
+    }
+    .logo__item{
+        width: 50px;
+    }
+    
+} 
+
+
+/*Tablet*/
+@media (max-width: 768px) {
+    .products-container{
+        width: 100%;
+        font-size: 8px;
+    }
+    .header-text, .foot-text{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .logo__item{
+        height: 33px;
+        width: 90px;
+    }
+}
+

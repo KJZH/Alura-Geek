@@ -1,0 +1,40 @@
+{
+  "products": [
+    {
+      "name": "DeadPool",
+      "price": "100",
+      "image": "https://funkospace.pe/cdn/shop/files/funko-pop-deadpool-wolverine-deadpool-with-swords-funkospace-1_1024x1024@2x.webp?v=1713802021",
+      "id": 1
+    },
+    {
+      "name": "Grogu",
+      "price": "99",
+      "image": "https://funkospace.pe/cdn/shop/files/funko-pop-star-wars-the-mandalorian-holiday-grogu-funospace-1_1024x1024@2x.webp?v=1720032465",
+      "id": 2
+    },
+    {
+      "name": "Thanos",
+      "price": "80",
+      "image": "https://funkospace.pe/cdn/shop/files/funkospace-funko-pop-avengers-endgame-thanos-1_300x300.jpg?v=1691527000",
+      "id": 3
+    },
+    {
+      "name": "Grogu",
+      "price": "99",
+      "image": "https://funkospace.pe/cdn/shop/files/funko-pop-star-wars-the-mandalorian-holiday-grogu-funospace-1_1024x1024@2x.webp?v=1720032465",
+      "id": 4
+    },
+    {
+      "name": "Thanos",
+      "price": "80",
+      "image": "https://funkospace.pe/cdn/shop/files/funkospace-funko-pop-avengers-endgame-thanos-1_300x300.jpg?v=1691527000",
+      "id": 5
+    },
+    {
+      "name": "Thanos",
+      "price": "80",
+      "image": "https://funkospace.pe/cdn/shop/files/funkospace-funko-pop-avengers-endgame-thanos-1_300x300.jpg?v=1691527000",
+      "id": 6
+    }
+  ]
+}
